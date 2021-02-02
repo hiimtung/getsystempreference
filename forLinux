@@ -1,7 +1,0 @@
-sudo lshw -short > systemspecs.txt
-grep 'system' systemspecs.txt > specs.txt
-grep 'process' systemspecs.txt >> specs.txt
-grep 'memory.*MHz' systemspecs.txt >> specs.txt
-grep 'disk' systemspecs.txt >> specs.txt
-grep 'display' systemspecs.txt >> specs.txt
-rm systemspecs.txt
